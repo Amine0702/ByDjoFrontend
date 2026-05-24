@@ -2,10 +2,9 @@
   "name": "bydjo-ecommerce",
   "version": "1.0.0",
   "scripts": {
-    "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration production",
-    "vercel-build": "ng build --configuration production"
+    "vercel-build": "node ./node_modules/@angular/cli/bin/ng build --configuration production"
   },
   "private": true,
   "dependencies": {
