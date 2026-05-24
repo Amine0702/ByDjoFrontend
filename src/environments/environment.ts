@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  apiUrl: "https://bydjobackend-1.onrender.com",
+  apiUrl: "https://bydjobackend-1.onrender.com/api",
   storeName: "BY DJO",
   currency: "TND",
   currencySymbol: "د.ت",
